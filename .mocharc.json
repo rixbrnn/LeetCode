@@ -1,0 +1,6 @@
+{
+  "extension": ["ts", "js"],
+  "node-option": ["import=tsx"],
+  "timeout": 999999,
+  "colors": true
+}
