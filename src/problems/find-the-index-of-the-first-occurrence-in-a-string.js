@@ -1,0 +1,16 @@
+/**
+ * @param {string} haystack
+ * @param {string} needle
+ * @return {number}
+ */
+var strStr = function(haystack, needle) {
+    for(let i=0; i < haystack.length; i++){
+        const extraction = haystack.slice(i, i + needle.length);
+        if (extraction === needle) { 
+            return i;
+        }
+    }
+    return -1;
+};
+
+console.log(strStr("hello", "ll"));
