@@ -1,7 +1,7 @@
 {
   "scripts": {
     "build": "webpack",
-    "test": "mocha --config .mocharc.json ./test"
+    "test": "mocha --config .mocharc.json ./test/**"
   },
   "devDependencies": {
     "@types/lodash": "^4.17.7",

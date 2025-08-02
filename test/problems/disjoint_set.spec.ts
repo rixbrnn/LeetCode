@@ -1,4 +1,4 @@
-import { buildDisjointSet, isConnected } from "../src/disjoint_set";
+import { buildDisjointSet, isConnected } from "../../src/problems/disjoint_set"
 import * as assert from "assert";
 
 describe("validate disjoint set creation and isConnected method", () => {
